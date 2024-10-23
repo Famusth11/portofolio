@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial, Helvetica", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6, strong {
+    color: black;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1,9rem;
+}
+
+p, span, label, input, textarea, li {
+    color: black ;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-container {
+        width: 90%;
+    }
+}
+
+/* Logo and Navigation Menu */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.logo {
+    color: black;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+
+
