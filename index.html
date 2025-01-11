@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="//db.onlinewebfonts.com/c/021f3eb1da35b2a042907dc870c00b9c?family=TwentiethCenturyW01-XBdCn"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/stylesheet/app.css" />
+    <link rel="stylesheet" href="assets/stylesheet/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.css"
+    />
+    <title>Famusth Profile</title>
+  </head>
+
+  <body>
+    <ul class="nav justify-content-center bg-light fixed-top">
+      <li class="nav-item">
+        <!-- <a class="nav-link" href="#"> -->
+        <a
+          class="buttonToggle"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions"
+          ><i class="fas fa-bars toggleSlide"></i
+        ></a>
+
+        <div
+          class="offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="offcanvasWithBothOptions"
+          aria-labelledby="offcanvasWithBothOptionsLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+              Please select a menu :
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul>
+              <li>
+                <a class="nav-link" href="#Biodata">Biodata</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Projects">Projects</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Certifications">Certifications</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- </a> -->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link initial" href="#" aria-current="page">F7</a>
+      </li>
+
+      <li class="nav-item-item">
+        <a class="nav-link" href="#Biodata">Biodata</a>
+      </li>
+      <li class="nav-item-item">
+        <a class="nav-link" href="#Projects">Projects</a>
+      </li>
+      <li class="nav-item-item">
+        <a class="nav-link" href="#Certifications">Certifications</a>
+      </li>
+      <li class="nav-item-item">
+        <a class="nav-link" href="#Contact">Contact</a>
+      </li>
+    </ul>
+    <div class="all-body-cover">
+      <img
+        width="200px"
+        src="assets/img/foto.jpg"
+        class="img-thumbnail rounded-circle mx-auto d-block"
+        alt="..."
+      />
+      <div class="nama">
+        <h4 class="text-center fw-bold">Muhammad Fahri Musthofa</h4>
+        <h5 class="text-center">UI/UX Designer</h5>
+      </div>
+
+      <svg
+        class="waves"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,160L48,149.3C96,139,192,117,288,144C384,171,480,245,576,272C672,299,768,277,864,250.7C960,224,1056,192,1152,186.7C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+      <div class="firstContainer">
+        <div class="content">
+          <h2
+            data-aos="fade-up"
+            data-aos-duration="800"
+            id="Biodata"
+            class="nameHeading fw-bold"
+          >
+            BIODATA
+          </h2>
+          <div class="container text-center">
+            <div class="row">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="800"
+                class="col-sm-4 mb-2"
+              >
+              Nama saya M. Fahri Musthofa, dan saat ini saya sedang menempuh pendidikan di bidang Teknologi Informasi di Universitas Sains Al-Qur'an Wonosobo. Sebagai mahasiswa, saya terus berusaha untuk memperdalam pemahaman saya tentang konsep-konsep dasar IT seperti sistem operasi, pemrograman, dan struktur data. Saya juga tertarik dengan pengembangan perangkat lunak dan ingin mengasah kemampuan saya dalam membuat aplikasi yang berguna bagi orang lain.
+              Meskipun saya baru memulai perjalanan saya, saya percaya bahwa tekad dan kemauan untuk terus belajar adalah kunci kesuksesan dalam bidang ini. Saya selalu mencari peluang untuk mempraktikkan apa yang saya pelajari melalui tugas tugas yang diberikan oleh dosen, hackathon, atau kerja sama dengan teman-teman untuk mengembangkan aplikasi atau solusi IT yang dapat memberikan dampak positif.
+              
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-duration="800"
+                class="col-sm-4 mb-2"
+              >
+                <h4 class="subNameHeading fw-bold">EDUCATION</h4>
+                <div class="education">
+                  <!-- Button trigger modal -->
+                  <p class="startEnd">Started on 2008</p>
+                  <button
+                    type="button"
+                    class="btn btn-danger itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal1"
+                  >
+                    PENDIDIKAN SD
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal1"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            NAMA SEKOLAH
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">MI GUPPI Kr NANGKA</div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="startEnd">Finished on 2014</p>
+                  <i class="fas fa-arrow-circle-down itemEdu"></i>
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+                  <p class="startEnd">Started on Jul 2015</p>
+                  <button
+                    type="button"
+                    class="btn btn-danger itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2"
+                  >
+                    PENDIDIKAN SMP
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal2"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            NAMA SEKOLAH
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">MTs NEGRI 2 PURBALINGGA</div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="startEnd">Finished on Jun 2017</p>
+                  <i class="fas fa-arrow-circle-down itemEdu"></i>
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+                  <p class="startEnd">Started on Jul 2018</p>
+                  <button
+                    type="button"
+                    class="btn btn-danger itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal3"
+                  >
+                    PENDIDIKAN SMA
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal3"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            NAMA SEKOLAH
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">SMA ANDALUSIA BANYUMAS</div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="startEnd">Finished on Jun 2021</p>
+                  <i class="fas fa-arrow-circle-down itemEdu"></i>
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+                  <p class="startEnd">Started on 2022</p>
+                  <button
+                    type="button"
+                    class="btn btn-danger itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal4"
+                  >
+                    University (Semester 5)
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal4"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            NAMA UNIVERSITAS
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">UNIVERSITAS SAINS AL-QURAN</div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="fade-up" data-aos-duration="800" class="col-sm-4">
+                Walaupun fokus saya adalah di bidang Teknologi Informasi, saya juga percaya bahwa keseimbangan dalam hidup sangat penting. Di luar dunia coding, saya sangat menikmati bermain game. Game bukan hanya hiburan, tetapi juga memberi saya wawasan tentang desain interaksi dan pengalaman pengguna yang intuitif. Hal ini membantu saya memahami bagaimana teknologi bisa diterapkan dalam berbagai cara yang menyenangkan dan mendidik. Ini adalah cara saya untuk merefleksikan perjalanan belajar saya dan juga membantu orang lain yang baru mulai menjelajah dunia IT.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- second -->
+    <div class="secondContainer">
+     
+      <div class="container mx-auto">
+        <div class="row">
+          <div class="col-sm-3">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              style="max-width: 18rem"
+            >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- third -->
+    <svg
+      class="wavesss"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#ffffff"
+        fill-opacity="1"
+        d="M0,0L48,53.3C96,107,192,213,288,234.7C384,256,480,192,576,181.3C672,171,768,213,864,245.3C960,277,1056,299,1152,298.7C1248,299,1344,277,1392,266.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <div class="thirdContainer">
+      <h2
+        data-aos="fade-up"
+        data-aos-duration="800"
+        id="Projects"
+        class="projects fw-bold"
+      >
+        PROJECTS
+      </h2>
+      <div class="categoryy">
+        <div class="container">
+          <div class="row justify-content-md-center  ">
+            <div data-aos="fade-up" data-aos-duration="800" class="col">
+              <div class="article-container-firstRow text-uppercase mx-auto">
+                <a
+                  href="https://www.figma.com/proto/3vlbDYdZpg7dNnBtbAle5j/BDT?node-id=284-786&t=XbN5fThVdCD2Umus-1&scaling=scale-down&content-scaling=fixed&page-id=284%3A598&starting-point-node-id=284%3A786">
+                  <img src="mockup 2.png" width="500" height="300" class="col-sm-5" >
+                  <div class="article-img-holder-firstRow">CarWash</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="categoryy">
+        <div class="container">
+          <div class="row justify-content-md-center  ">
+            <div data-aos="fade-up" data-aos-duration="800" class="col">
+              <div class="article-container-firstRow text-uppercase mx-auto">
+                <a
+                  href="https://www.figma.com/proto/eqCZ0HfI3SF9RoSW7WONXN/project-IMK?page-id=0%3A1&node-id=1-2&viewport=1643%2C254%2C0.07&t=5F7DyMZzCyDoTEb2-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A2">
+                  <img src="Desktop - 2.png" width="400" height="250" class="col-sm-4 " >
+                  <div class="article-img-holder-firstRow">Pullsshop</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg
+      class="botWaves"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#ffffff"
+        fill-opacity="1"
+        d="M0,64L48,101.3C96,139,192,213,288,224C384,235,480,181,576,181.3C672,181,768,235,864,229.3C960,224,1056,160,1152,138.7C1248,117,1344,139,1392,149.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+      ></path>
+    </svg>
+    <div class="fourthContainer">
+      <h2
+        data-aos="fade-up"
+        data-aos-duration="800"
+        id="Certifications"
+        class="achive text-center fw-bold"
+      >
+      
+        CERTIFICATION
+      </h2>
+      <div class="container">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="800"
+          class="table-responsive"
+        >
+          <table class="table mx-auto table-hover table-light table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Organizer</th>
+                <th scope="col">Date</th>
+                <th scope="col">Credential</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>MTQ</td>
+                <td>LPTQ PURBALINGGA</td>
+                <td>July 24, 2017</td>
+                <td>
+                  <a class="btn btn-primary mx-info" href="https://drive.google.com/file/d/1EgGh0iDGYyIVQsnqtu5QcrS8mAEyxk-P/view?usp=drivesdk" role="button"
+                    >View</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>MTQ</td>
+                <td>LPTQ BANYUMAS</td>
+                <td>November 6, 2018</td>
+                <td>
+                  <a class="btn btn-primary mx-info" href="https://drive.google.com/file/d/1nSKrHJd2XjOb6LXSO_-_vQA26xSVGu4X/view?usp=drivesdk" role="button"
+                    >View</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>AKSIOMA</td>
+                <td>KEMENAG</td>
+                <td>July 19, 2017</td>
+                <td>
+                  <a class="btn btn-primary mx-info" href="https://drive.google.com/file/d/1EeVUVdMXZGIeVEX8GIGA5O8zCgRtRYeL/view?usp=drivesdk" role="button"
+                    >View</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <svg
+      class="wavesContact"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#ffffff"
+        fill-opacity="1"
+        d="M0,32L60,58.7C120,85,240,139,360,133.3C480,128,600,64,720,69.3C840,75,960,149,1080,154.7C1200,160,1320,96,1380,64L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+      ></path>
+    </svg>
+    <div class="fivethContainer">
+      <h2 id="Contact" class="contactMe fw-bold">CONTACT</h2>
+      <div class="container">
+        <div class="linkSosmed">
+          <a class="itemSosmed" href=https://www.instagram.com/famusthhhhh_?igsh=YnRubW82N2FncmVk
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a class="itemSosmed" href="http://wa.me/6285201501681/"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          <a class="itemSosmed" href="https://github.com/Famusth11"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+        <p class="text-center">Created by <a href="#">@famusth</a></p>
+      </div>
+    </div>
+    <script src="assets/stylesheet/app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
